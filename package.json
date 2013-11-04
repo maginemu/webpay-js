@@ -1,0 +1,40 @@
+{
+    "name": "webpay-js",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": ["webpay", "payment", "node"],
+    "homepage": "https://github.com/maginemu/webpay-js",
+    "bugs": {
+        "email": "lonely.two.mn+github@gmail.com",
+        "url": "https://github.com/maginemu/webpay-js/issues"
+    },
+    "author": {
+        "name": "Kazuma MISHIMAGI",
+        "email": "lonely.two.mn@gmail.com",
+        "url": "https://github.com/maginemu"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/maginemu/webpay-js.git"
+    },
+    "dependencies": {
+        "requirejs": ">=2.1.9",
+        "lodash": ">=2.2.1"
+    },
+    "devDependencies": {
+        "jshint": ">=2.3.0",
+		"mocha": "*",
+        "chai": "*",
+		"sinon": "*",
+		"sinon-chai": "*"
+    },
+    "engines": {
+        "node": ">=0.11.8",
+        "npm": ">=1.3.0"
+    },
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "private": true
+}
