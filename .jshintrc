@@ -7,7 +7,7 @@
     // Predefined globals whom JSHint will ignore.
     "browser"       : true,   // Standard browser globals e.g. `window`, `document`.
 
-    "node"          : false,
+    "node"          : true,
     "rhino"         : false,
     "couch"         : false,
     "wsh"           : false,   // Windows Scripting Host.
@@ -18,7 +18,7 @@
     "dojo"          : false,
 
     "predef"        : [  // Extra globals.
-        //"describe",   // Used by mocha
+        //"de5cribe",   // Used by mocha
         //"it",         // Used by mocha
         //"before",     // Used by mocha
         //"beforeEach", // Used by mocha
@@ -35,7 +35,6 @@
 
 
     // EcmaScript 5.
-    "es5"           : true,   // Allow EcmaScript 5 syntax.
     "strict"        : false,  // Require `use strict` pragma in every file.
     "globalstrict"  : false,  // Allow global "use strict" (also enables 'strict').
 
@@ -75,6 +74,5 @@
     "plusplus"      : false,  // Prohibit use of `++` & `--`.
     "sub"           : false,  // Tolerate all forms of subscript notation besides dot notation e.g. `dict['key']` instead of `dict.key`.
     "trailing"      : true,   // Prohibit trailing whitespaces.
-    "white"         : true,  // Check against strict whitespace and indentation rules.
     "laxcomma"      : false
 }
