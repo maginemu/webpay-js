@@ -1,0 +1,41 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Sun, 08 Sep 2013 05:22:08 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Status: 200 OK
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "2672411c723a31aaf67ed4fa6ac0aad4"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: ce69847ff19fc25f9376d2affc8e8a44
+X-Runtime: 0.063278
+X-Rack-Cache: invalidate, pass
+
+{
+  "id": "ch_2X01NDedxdrRcA3",
+  "object": "charge",
+  "livemode": false,
+  "currency": "jpy",
+  "description": "Test Charge from Java",
+  "amount": 1000,
+  "amount_refunded": 0,
+  "customer": "cus_fgR4vI92r54I6oK",
+  "created": 1378617627,
+  "paid": true,
+  "refunded": false,
+  "failure_message": null,
+  "card": {
+    "object": "card",
+    "exp_year": 2014,
+    "exp_month": 11,
+    "fingerprint": "215b5b2fe460809b8bb90bae6eeac0e0e0987bd7",
+    "name": "KEI KUBO",
+    "country": "JP",
+    "type": "Visa",
+    "cvc_check": "pass",
+    "last4": "4242"
+  },
+  "captured": true,
+  "expire_time": 1379222427
+}

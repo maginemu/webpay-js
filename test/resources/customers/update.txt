@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+X-Ua-Compatible: IE=Edge
+Etag: "1404018ce07fd2f8e981d83abeec47e4"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 549d609daca5ce3e6b4de6c72112acf4
+X-Runtime: 0.046486
+Server: WEBrick/1.3.1 (Ruby/1.9.3/2013-02-22)
+Date: Tue, 10 Sep 2013 14:01:50 GMT
+Content-Length: 441
+Connection: Keep-Alive
+
+{
+  "id": "cus_39o4Fv82E1et5Xb",
+  "object": "customer",
+  "livemode": false,
+  "created": 1378819398,
+  "email": "newmail@example.com",
+  "description": "New description",
+  "active_card": {
+    "object": "card",
+    "exp_year": 2016,
+    "exp_month": 12,
+    "fingerprint": "215b5b2fe460809b8bb90bae6eeac0e0e0987bd7",
+    "name": "YUUKO SHIONJI",
+    "country": "JP",
+    "type": "Visa",
+    "cvc_check": "pass",
+    "last4": "4242"
+  }
+}

@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+X-Ua-Compatible: IE=Edge
+Etag: "bfda5f4ce8f4baff2dc95b81d3eeddc8"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: ac424d922fefdd1625e41bda0e13f4b8
+X-Runtime: 0.057802
+Server: WEBrick/1.3.1 (Ruby/1.9.3/2013-02-22)
+Date: Wed, 11 Sep 2013 12:48:50 GMT
+Content-Length: 234
+Connection: Keep-Alive
+
+{
+  "object": "account",
+  "id": "acct_2Cmdexb7J2r78rz",
+  "email": "test-me@example.com",
+  "statement_descriptor": null,
+  "details_submitted": false,
+  "charge_enabled": false,
+  "currencies_supported": [
+    "jpy"
+  ]
+}

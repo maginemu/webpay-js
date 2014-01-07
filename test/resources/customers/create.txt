@@ -1,0 +1,31 @@
+HTTP/1.1 201 Created
+Content-Type: application/json; charset=utf-8
+X-Ua-Compatible: IE=Edge
+Etag: "473096d7961bec9bc228fe5d423c79b5"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: e439ee26c479cc5c50d54d2d5b8d6af5
+X-Runtime: 0.254780
+Server: WEBrick/1.3.1 (Ruby/1.9.3/2013-02-22)
+Date: Tue, 10 Sep 2013 13:23:18 GMT
+Content-Length: 450
+Connection: Keep-Alive
+
+{
+  "id": "cus_39o4Fv82E1et5Xb",
+  "object": "customer",
+  "livemode": false,
+  "created": 1378819398,
+  "email": "customer@example.com",
+  "description": "Test Customer from Java",
+  "active_card": {
+    "object": "card",
+    "exp_year": 2015,
+    "exp_month": 12,
+    "fingerprint": "215b5b2fe460809b8bb90bae6eeac0e0e0987bd7",
+    "name": "YUUKO SHIONJI",
+    "country": "JP",
+    "type": "Visa",
+    "cvc_check": "pass",
+    "last4": "4242"
+  }
+}

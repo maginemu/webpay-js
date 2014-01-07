@@ -1,0 +1,41 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Sun, 08 Sep 2013 04:49:14 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Status: 200 OK
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "00ea9522e0f29d3e2a494f30105fe841"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 20141aa82edd1939c6b0ce64d5a87fa7
+X-Runtime: 0.055769
+X-Rack-Cache: invalidate, pass
+
+{
+  "id": "ch_bWp5EG9smcCYeEx",
+  "object": "charge",
+  "livemode": false,
+  "currency": "jpy",
+  "description": "アイテムの購入",
+  "amount": 400,
+  "amount_refunded": 400,
+  "customer": null,
+  "created": 1370746452,
+  "paid": true,
+  "refunded": true,
+  "failure_message": null,
+  "card": {
+    "object": "card",
+    "exp_year": 2014,
+    "exp_month": 11,
+    "fingerprint": "215b5b2fe460809b8bb90bae6eeac0e0e0987bd7",
+    "name": "KEI KUBO",
+    "country": "JP",
+    "type": "Visa",
+    "cvc_check": "pass",
+    "last4": "4242"
+  },
+  "captured": true,
+  "expire_time": null
+}

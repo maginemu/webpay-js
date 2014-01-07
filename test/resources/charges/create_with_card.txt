@@ -1,0 +1,41 @@
+HTTP/1.1 201 Created
+Server: nginx/1.4.1
+Date: Sun, 08 Sep 2013 02:59:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Status: 201 Created
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "12298cbfe1c3cc7943d352edc90582ae"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 7f97fc1c9cbdf3ca648d0460bd381b93
+X-Runtime: 0.078686
+X-Rack-Cache: invalidate, pass
+
+{
+  "id": "ch_2SS17Oh1r8d2djE",
+  "object": "charge",
+  "livemode": false,
+  "currency": "jpy",
+  "description": "Test Charge from Java",
+  "amount": 1000,
+  "amount_refunded": 0,
+  "customer": null,
+  "created": 1378609168,
+  "paid": true,
+  "refunded": false,
+  "failure_message": null,
+  "card": {
+    "object": "card",
+    "exp_year": 2015,
+    "exp_month": 12,
+    "fingerprint": "215b5b2fe460809b8bb90bae6eeac0e0e0987bd7",
+    "name": "YUUKO SHIONJI",
+    "country": "JP",
+    "type": "Visa",
+    "cvc_check": "pass",
+    "last4": "4242"
+  },
+  "captured": true,
+  "expire_time": null
+}

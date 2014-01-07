@@ -1,0 +1,102 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Sun, 08 Sep 2013 05:37:38 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Status: 200 OK
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "1ef28b71a9c2922209c711d6337dc268"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: d70772065116ff711cb28778dabd50ed
+X-Runtime: 0.023629
+X-Rack-Cache: miss
+
+{
+  "object": "list",
+  "url": "/v1/charges",
+  "count": 11,
+  "data": [
+    {
+      "id": "ch_2X01NDedxdrRcA3",
+      "object": "charge",
+      "livemode": false,
+      "currency": "jpy",
+      "description": "Test Charge from Java",
+      "amount": 1000,
+      "amount_refunded": 0,
+      "customer": "cus_fgR4vI92r54I6oK",
+      "created": 1378617627,
+      "paid": true,
+      "refunded": false,
+      "failure_message": null,
+      "card": {
+        "object": "card",
+        "exp_year": 2014,
+        "exp_month": 11,
+        "fingerprint": "215b5b2fe460809b8bb90bae6eeac0e0e0987bd7",
+        "name": "KEI KUBO",
+        "country": "JP",
+        "type": "Visa",
+        "cvc_check": "pass",
+        "last4": "4242"
+      },
+      "captured": true,
+      "expire_time": 1379222427
+    },
+    {
+      "id": "ch_2SS17Oh1r8d2djE",
+      "object": "charge",
+      "livemode": false,
+      "currency": "jpy",
+      "description": "Test Charge from Java",
+      "amount": 1000,
+      "amount_refunded": 0,
+      "customer": null,
+      "created": 1378609168,
+      "paid": true,
+      "refunded": false,
+      "failure_message": null,
+      "card": {
+        "object": "card",
+        "exp_year": 2015,
+        "exp_month": 12,
+        "fingerprint": "215b5b2fe460809b8bb90bae6eeac0e0e0987bd7",
+        "name": "YUUKO SHIONJI",
+        "country": "JP",
+        "type": "Visa",
+        "cvc_check": "pass",
+        "last4": "4242"
+      },
+      "captured": true,
+      "expire_time": null
+    },
+    {
+      "id": "ch_2SS4fK4IL96535y",
+      "object": "charge",
+      "livemode": false,
+      "currency": "jpy",
+      "description": "Test Charge from Java",
+      "amount": 1000,
+      "amount_refunded": 0,
+      "customer": "cus_fgR4vI92r54I6oK",
+      "created": 1378607167,
+      "paid": true,
+      "refunded": false,
+      "failure_message": null,
+      "card": {
+        "object": "card",
+        "exp_year": 2014,
+        "exp_month": 11,
+        "fingerprint": "215b5b2fe460809b8bb90bae6eeac0e0e0987bd7",
+        "name": "KEI KUBO",
+        "country": "JP",
+        "type": "Visa",
+        "cvc_check": "pass",
+        "last4": "4242"
+      },
+      "captured": true,
+      "expire_time": null
+    }
+  ]
+}

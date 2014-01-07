@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+X-Ua-Compatible: IE=Edge
+Etag: "cfd07e8cad0c1387384a1b37f7fa6ba0"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: a1a22af941e1b9076e3cc2ce07d2dff4
+X-Runtime: 0.012743
+Server: WEBrick/1.3.1 (Ruby/1.9.3/2013-02-22)
+Date: Fri, 01 Nov 2013 12:07:56 GMT
+Content-Length: 53
+Connection: Keep-Alive
+
+{
+  "id": "cus_7GafGMbML8R28Io",
+  "deleted": true
+}

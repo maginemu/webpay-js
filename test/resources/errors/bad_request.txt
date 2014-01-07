@@ -1,0 +1,18 @@
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+X-Ua-Compatible: IE=Edge
+Cache-Control: no-cache
+X-Request-Id: b434ca28f6241d107aaeac961c8aa225
+X-Runtime: 0.323214
+Server: WEBrick/1.3.1 (Ruby/1.9.3/2013-02-22)
+Date: Sun, 08 Sep 2013 08:53:39 GMT
+Content-Length: 133
+Connection: Keep-Alive
+
+{
+  "error": {
+    "type": "invalid_request_error",
+    "message": "Missing required param: currency",
+    "param": "currency"
+  }
+}
