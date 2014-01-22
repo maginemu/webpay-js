@@ -134,10 +134,6 @@ describe('webpay.account', function() {
 
 			});
 
-			after(function() {
-
-			});
-
 			var id = 'ch_bWp5EG9smcCYeEx';
 			it('should refund the retrieved charge', function(done) {
 				webpay.client.charge.retrieve(id, function(err, charge) {
