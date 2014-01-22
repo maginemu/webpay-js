@@ -40,7 +40,7 @@ describe('webpay.account', function() {
 
 	describe('.retrieve', function() {
 		it('expected to retrieve account object', function(done) {
-			webpay.client.account().retrieve(function(err, res) {
+			webpay.client.account.retrieve(function(err, res) {
 				expect(err).to.be.null;
 				expect(res).to.have.property('object').and.eql('account');
 				expect(res).to.have.property('id').and.eql('acct_2Cmdexb7J2r78rz');
@@ -53,7 +53,7 @@ describe('webpay.account', function() {
 
 	describe('.delete', function() {
 		it('expected to return true', function(done) {
-			webpay.client.account().delete(function(err, res) {
+			webpay.client.account.delete(function(err, res) {
 				expect(err).to.be.null;
 				expect(res).to.be.true;
 				done();
